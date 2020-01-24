@@ -1,7 +1,26 @@
 #include<iostream>
 using namespace std;
+#include<iomanip>
+int printO(int N, int M){
+	if(M <= 0 or N <= 0){
+	cout << "Invalid input";
+	}else{
+		for(int i = N;i > 0; i--){
+			for (int j = M;j > 0; j--)
+		{
+			cout << "O";
+		}
+			cout << "\n";
+		}
+		
+	}
+		
+		
+		
 
-//Write the function printO() here
+
+	return 0;
+}
 
 int main(){
 	
